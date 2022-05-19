@@ -1,0 +1,63 @@
+html {
+    display: flex;
+
+}
+
+body {
+    margin: 0;
+
+}
+
+h1,
+h2 {
+    margin: 0px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+
+.firstpage {
+
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    align-items: center;
+    padding: 20px;
+
+
+}
+
+.firstpage1 {
+
+
+
+    margin: 20px 200px;
+    text-align: left;
+
+    width: 80;
+    height: 80;
+
+
+}
+
+.firstpage-name {
+
+    font-size: 15px;
+    font-weight: 500;
+    color: salmon;
+    font-family: 'Exo', sans-serif;
+
+}
+
+.firstpage-name-2 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Exo', sans-serif;
+
+}
+
+.firstpage-dot {
+    color: salmon;
+}
