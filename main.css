@@ -18,7 +18,7 @@ h2 {
 }
 
 
-.firstpage {
+.mypage {
 
     display: flex;
     /* flex-direction: row; */
@@ -29,7 +29,7 @@ h2 {
 
 }
 
-.firstpage1 {
+.mypage1 {
 
 
 
@@ -40,24 +40,25 @@ h2 {
     height: 80;
 
 
+
 }
 
-.firstpage-name {
+.mypage1__name {
 
     font-size: 15px;
-    font-weight: 500;
+    font-weight: bold;
     color: salmon;
     font-family: 'Exo', sans-serif;
 
 }
 
-.firstpage-name-2 {
+.mypage1__name2 {
     font-size: 40px;
     font-weight: bold;
     font-family: 'Exo', sans-serif;
 
 }
 
-.firstpage-dot {
+.mypage1-dot {
     color: salmon;
 }
