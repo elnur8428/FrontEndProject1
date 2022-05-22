@@ -1,5 +1,6 @@
 html {
     display: flex;
+    font-family: 'Exo', sans-serif;
 
 }
 
@@ -8,13 +9,9 @@ body {
 
 }
 
-h1,
+h3,
 h2 {
     margin: 0px;
-}
-
-h2 {
-    font-weight: bold;
 }
 
 
@@ -24,41 +21,32 @@ h2 {
     /* flex-direction: row; */
     /* justify-content: center; */
     align-items: center;
-    padding: 20px;
-
-
+    padding: 0px;
 }
 
 .mypage1 {
 
-
-
-    margin: 20px 200px;
+    margin: 20px 150px;
     text-align: left;
 
-    width: 80;
-    height: 80;
-
-
+    /* width: 80;
+    height: 80; */
 
 }
 
 .mypage1__name {
 
     font-size: 15px;
-    font-weight: bold;
     color: salmon;
-    font-family: 'Exo', sans-serif;
+    
 
 }
 
 .mypage1__name2 {
-    font-size: 40px;
-    font-weight: bold;
-    font-family: 'Exo', sans-serif;
+    font-size: 38px;
 
 }
 
-.mypage1-dot {
+.mypage1__dot {
     color: salmon;
 }
