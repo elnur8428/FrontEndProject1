@@ -1,0 +1,97 @@
+@font-face{
+	font-family: Exo_m;
+	src: url(/fonts/Exo2Medium.ttf);
+}
+@font-face{
+	font-family: Exo_i;
+	src: url(/fonts/Exo2Italic.ttf);
+}
+@font-face{
+	font-family: Exo_b;
+	src: url(/fonts/Exo2Bold.ttf);
+}
+@font-face{
+	font-family: Exo_r;
+	src: url(/fonts/Exo2Regular.ttf);
+}
+@font-face{
+	font-family: Exo_t;
+	src: url(/fonts/Exo2Thin.ttf);
+}
+.registrationpage input {
+    margin: 0 10px 20px 10px;
+    width: 270px;
+    height: 50px;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    background-color: #474d78;
+    border: 2px solid #999cb4;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: Exo_m;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.registrationpage input[type=submit] {
+    background-color: #ff6d6d;
+    border: none;
+    /* cursor: pointer; */
+}
+.btn-container-form[type=submit] {
+    position: relative;
+    display: inline-block;
+    max-height: 50px;
+    padding-bottom: 50px;
+}
+.registrationpage-content h3 {
+    font-size: 16px;
+    line-height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #ff6d6d;
+    text-align: center;
+    padding: 0;
+}
+.registrationpage h1 {
+    margin-bottom: 90px;
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bold;
+    padding: 0px 10% 40px 10%;
+    text-align: center;
+}
+.registrationpage-content p, .registrationpage-content p a{
+    color: #afadad;;
+}
+.registrationpage-content p{
+    padding: 10px 10% 65px 10%;
+    text-align: center;
+}
+.btn-container-form {
+    position: relative;
+    display: inline-block;
+    max-height: 50px;
+    padding-bottom: 50px;
+}
+.btn-hover img, p {
+    display: flex;
+    vertical-align: top;
+    margin: 0 -10px;
+}
+
+.btn-hover img{
+    margin-top: 12px;
+
+}
+.btn-hover {
+    position: absolute;
+    left: 10px;
+    right: 20px;
+    top: -70px;
+    font-family: Exo_r;
+    font-weight: normal;
+    color: #fff;
+}

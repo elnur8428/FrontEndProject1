@@ -1,0 +1,64 @@
+@font-face{
+	font-family: Exo_m;
+	src: url(/fonts/Exo2Medium.ttf);
+}
+@font-face{
+	font-family: Exo_i;
+	src: url(/fonts/Exo2Italic.ttf);
+}
+@font-face{
+	font-family: Exo_b;
+	src: url(/fonts/Exo2Bold.ttf);
+}
+@font-face{
+	font-family: Exo_r;
+	src: url(/fonts/Exo2Regular.ttf);
+}
+@font-face{
+	font-family: Exo_t;
+	src: url(/fonts/Exo2Thin.ttf);
+}
+html, body {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: Exo_m;
+}
+.intro__item{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+} 
+.intro__item-name-1 {
+   color: #5d5454f0;
+   margin: 50px 320px;
+   text-align: center;
+   font-size: 60px;
+   line-height: 75px;
+   font-weight: normal;
+   font-family: Exo_t;
+   padding: 0 60px;  
+}
+.intro__item-video {
+   margin-bottom: 45px;
+   width: 60px;
+   height: 60px;
+}
+.intro__item-button {
+   background-color: salmon;
+   padding: 0px;
+   margin-top: 20px;
+   border: 0px;
+   width: 190px;
+   height: 50px;
+}
+.intro__item-button_name {
+   color: white;
+   font-size: 20px;
+}
+.intro__item-name-2 {
+   color: grey;
+   font-size: 15px;
+   padding-top: 15px;
+}

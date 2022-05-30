@@ -1,0 +1,66 @@
+
+@font-face{
+	font-family: Exo_m;
+	src: url(/fonts/Exo2Medium.ttf);
+}
+@font-face{
+	font-family: Exo_i;
+	src: url(/fonts/Exo2Italic.ttf);
+}
+@font-face{
+	font-family: Exo_b;
+	src: url(/fonts/Exo2Bold.ttf);
+}
+@font-face{
+	font-family: Exo_r;
+	src: url(/fonts/Exo2Regular.ttf);
+}
+@font-face{
+	font-family: Exo_t;
+	src: url(/fonts/Exo2Thin.ttf);
+}
+html, body {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: Exo_m;
+}
+.intro-content__block {
+    margin: 20px 20px;
+    font-size: 15px;
+    font-family: Exo_m;  
+    width: 60%;
+    padding: 150px 10%;
+    box-sizing: border-box;
+    text-align: left; 
+}
+.intro-content-block p{
+    margin-bottom: 40px;
+    color: #282828;
+}
+.intro-content__block-name {
+    font-size: 20px;
+    color: salmon;
+    font-weight: bold;
+    height: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-family: Exo_m;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.intro-content__block-name-2 {
+    margin-bottom: 50px;
+    font-family: Exo_m;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    padding-bottom: 40px;
+    margin-bottom: 40px
+}
+.intro-content__block-dot {
+    color: salmon;
+}
+.intro-content_photo{
+    width: 40%; 
+}

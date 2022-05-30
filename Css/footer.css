@@ -1,0 +1,108 @@
+@font-face{
+	font-family: Exo_m;
+	src: url(/fonts/Exo2Medium.ttf);
+}
+@font-face{
+	font-family: Exo_i;
+	src: url(/fonts/Exo2Italic.ttf);
+}
+@font-face{
+	font-family: Exo_b;
+	src: url(/fonts/Exo2Bold.ttf);
+}
+@font-face{
+	font-family: Exo_r;
+	src: url(/fonts/Exo2Regular.ttf);
+}
+@font-face{
+	font-family: Exo_t;
+	src: url(/fonts/Exo2Thin.ttf);
+}
+
+.footer-content{
+    text-align: left;
+}
+.footer-content-block{
+    margin: 0 40px 0px 40px;
+    display: inline-block;
+    vertical-align: top;
+    min-width: 60px;
+    min-height: 10px;
+    max-height: 210px;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: left;
+}
+.footer-support {
+    padding-top: 28px;
+}
+.footer-about {
+    padding-top: 28px;
+}
+.footer-newsletter{
+    padding-bottom: 30px;
+}
+.footer-content-block:nth-child(1) {
+    max-width: 270px;
+}
+.footer-content-block:first-child {
+    margin-left: 0;
+}
+.btn-mail-container {
+    width: 265px;
+}
+.btn-hover img, p {
+    display: inline-block;
+    vertical-align: top;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.btn-mail-container input[type=email] {
+    width: 215px;
+    padding: 20px 25px;
+    box-sizing: border-box;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 2px solid #b8b8bf;
+    border-right: none;
+    font-family: Exo_r;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.btn-mail{
+    width: 46px;;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #ff6d6d;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.btn-mail-container input {
+    display: inline-block;
+    vertical-align: top;
+    height: 50px;
+}
+.icons-container{
+    display: block;
+    max-width: 350px;
+    padding-top: 15px;
+    text-align: center;
+}
+.icons-container a{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 14px;
+}
+.icons-container .fa-brands{
+    font-size: 24px;
+    color: #cbcbcbcc;   
+    transition: 0.7s;
+}
+.fa-brands{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;  
+}

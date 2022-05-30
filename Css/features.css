@@ -1,0 +1,76 @@
+@font-face{
+	font-family: Exo_m;
+	src: url(/fonts/Exo2Medium.ttf);
+}
+@font-face{
+	font-family: Exo_i;
+	src: url(/fonts/Exo2Italic.ttf);
+}
+@font-face{
+	font-family: Exo_b;
+	src: url(/fonts/Exo2Bold.ttf);
+}
+@font-face{
+	font-family: Exo_r;
+	src: url(/fonts/Exo2Regular.ttf);
+}
+@font-face{
+	font-family: Exo_t;
+	src: url(/fonts/Exo2Thin.ttf);
+}
+.features-name-one {
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #ff6d6d;
+    font-family: Exo_r;
+}
+.features-name-two {
+    margin-bottom: 80px;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: normal;
+    font-family: Exo_m;
+}
+.features__content-blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    min-height: 350px;
+    padding: 80px 10% 65px 10%;
+    text-align: center;
+    width: 60vw;
+}
+.features__content-blocks-first {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px 40px 15px;
+    padding: 10px 10px 0 10px;
+    width: 300px;
+    min-height: 200px;
+    box-sizing: border-box;
+}
+.features__content-blocks-second {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px 40px 15px;
+    padding: 10px 10px 0 10px;
+    width: 300px;
+    min-height: 200px;
+    box-sizing: border-box;
+}
+.features__content-blocks-third {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px 40px 15px;
+    padding: 10px 10px 0 10px;
+    width: 300px;
+    min-height: 200px;
+    box-sizing: border-box;
+}

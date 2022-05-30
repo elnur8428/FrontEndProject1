@@ -1,0 +1,141 @@
+@font-face{
+	font-family: Exo_m;
+	src: url(/fonts/Exo2Medium.ttf);
+}
+@font-face{
+	font-family: Exo_i;
+	src: url(/fonts/Exo2Italic.ttf);
+}
+@font-face{
+	font-family: Exo_b;
+	src: url(/fonts/Exo2Bold.ttf);
+}
+@font-face{
+	font-family: Exo_r;
+	src: url(/fonts/Exo2Regular.ttf);
+}
+@font-face{
+	font-family: Exo_t;
+	src: url(/fonts/Exo2Thin.ttf);
+}
+html, body {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: Exo_m;
+}
+
+/* First Page */
+
+.intro {
+    background-image: url(/img/bg/bgindex.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    padding: 100px 5% 20px 5%;
+    position: relative;
+    text-align: center;
+    width: 100vw;
+    height: 80vh;
+}
+
+/* Second Page */
+
+h3,
+h2 {
+    margin: 0px;
+}
+.intro-content {
+    background-image: url(/img/bg/bgintro.jpg);
+    background-position: right;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    padding: 2px 5%;
+    position: relative;
+    width: 100vw;
+}
+
+/* Third Page */
+
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/bg/bgfeatures.jpg);
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px 5%;
+    padding-top: 120px;
+}
+
+/* Four Page */
+
+.description {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-image: url(../img/bg/bgdescription.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 100px 0px;
+}
+
+/* Page Five */
+
+.team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/bg/bgclients.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    padding: 10px 5%;
+    position: relative;
+    text-align: center;
+    width: 100vw;
+}
+
+/* page six */
+
+.broser {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px 0 60px;
+    text-align: center;
+    width: 100%;
+}
+
+/* page seven */
+
+.registrationpage {
+    min-height: 200px;
+    padding: 100px 5%;
+    background-color: #323969;
+    position: relative;
+    text-align: center;
+    width: 100vw;
+}
+
+/* Page seven */
+
+.footer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    min-height: 100px;
+    position: relative;
+    min-height: 350px;
+    padding: 135px 10% 65px 10%;
+    text-align: center;
+}
+
+
+

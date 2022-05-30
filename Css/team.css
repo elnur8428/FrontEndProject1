@@ -1,0 +1,119 @@
+@font-face{
+	font-family: Exo_m;
+	src: url(/fonts/Exo2Medium.ttf);
+}
+@font-face{
+	font-family: Exo_i;
+	src: url(/fonts/Exo2Italic.ttf);
+}
+@font-face{
+	font-family: Exo_b;
+	src: url(/fonts/Exo2Bold.ttf);
+}
+@font-face{
+	font-family: Exo_r;
+	src: url(/fonts/Exo2Regular.ttf);
+}
+@font-face{
+	font-family: Exo_t;
+	src: url(/fonts/Exo2Thin.ttf);
+}
+.team-block-first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    height: 500px;
+    background-image: url(/img/bg/bgclients.png);
+    color: white;
+}
+.team-block-second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+.team-items-one {
+    margin: 0 20px;
+    width: 300px;
+    text-align: center;
+    flex-direction: row;
+    padding: 20px 40px;
+}
+.team-items-two {
+    margin: 0 20px;
+    width: 300px;
+    text-align: center;
+    flex-direction: row;
+    padding: 20px 40px 0px 40px;
+}
+.team-items-three {
+    margin: 0 20px;
+    width: 300px;
+    text-align: center;
+    flex-direction: row;
+    padding: 20px 40px;
+}
+.team-items-name{
+    padding-top: 10px;
+}
+.team-items-photo {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 80px 0 0 0;
+}
+.team-items-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+.team-items-position {
+    font-size: 17px;
+    font-weight: bold;
+    color: salmon;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 40px;
+}
+.team-partners-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.team-partners-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.team-partners-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.team-partners-four {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.team-partners-five {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.team-partners-icon {
+    display: flex;
+    width: 100%;
+}

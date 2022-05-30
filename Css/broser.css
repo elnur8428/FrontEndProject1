@@ -1,0 +1,54 @@
+@font-face{
+	font-family: Exo_m;
+	src: url(/fonts/Exo2Medium.ttf);
+}
+@font-face{
+	font-family: Exo_i;
+	src: url(/fonts/Exo2Italic.ttf);
+}
+@font-face{
+	font-family: Exo_b;
+	src: url(/fonts/Exo2Bold.ttf);
+}
+@font-face{
+	font-family: Exo_r;
+	src: url(/fonts/Exo2Regular.ttf);
+}
+@font-face{
+	font-family: Exo_t;
+	src: url(/fonts/Exo2Thin.ttf);
+}
+.broser-items {
+    max-width: 580px;
+    margin: 0 auto;
+}
+.broser-photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    padding: 50px 0 0 0;
+}
+.broser-photo-one{
+    max-width: 800px;
+}
+.broser-items-namefirst {
+    font-size: 20px;
+    color: salmon;
+    font-weight: bold;
+    height: 15px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    height: 20px;
+}
+.broser-items-namesecond {
+    font-size: 40px;
+    font-weight: bolder;
+    color: black;
+    padding-right: 45px;
+    padding-bottom: 20px;
+}
+.broser-items-dot {
+    color: salmon;
+}
